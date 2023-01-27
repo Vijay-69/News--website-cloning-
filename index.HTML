@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technology - BBC News</title>
+  <style type="text/css">
+    #topbar {
+
+      width: 1300px;
+      margin: 0 auto;
+      height: 50px;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    #logo {
+      margin-top: 0px;
+      width: 110px;
+      float: left;
+      margin-right: 8px;
+
+    }
+
+    .top-section {
+      float: left;
+      border-left: 1px #cccccc solid;
+      height: 120%;
+
+
+    }
+
+    #login-image {
+      width: 28px;
+      margin: 16px 20px 0px 16px;
+      float: left;
+    }
+
+    #signin-text {
+
+      font-weight: bold;
+      font-weight: 100%;
+      position: relative;
+      top: 22px;
+      left: 0px;
+
+    }
+
+    #notification {
+      float: left;
+      border-left: 1px #cccccc solid;
+      height: 120%;
+      margin-left: 100px;
+
+    }
+
+    #bell {
+      width: 30px;
+      margin: 16px 20px 0px 20px;
+    }
+
+    .topbar-menu {
+      font-weight: bold;
+      padding: 22px 22px 0px 22px;
+      height: 38px;
+
+    }
+
+    #search-box {
+      background-color: rgba(238, 231, 231, 0.966);
+      border: none;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 5px;
+      margin: 13px 0px 0px 17px;
+      float: left;
+    }
+
+    #m-glass {
+      width: 30px;
+      margin: 13px 13px 0px 1px;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    #menu-bar-container {
+
+      width: 100%;
+      height: 70px;
+      background-color: #bb1919;
+    }
+
+    #menu-bar {
+      width: 1500px;
+      margin: 0 auto;
+
+    }
+
+    h1 {
+      padding: 0px;
+      margin: 0px;
+      color: white;
+      font-size: 42px;
+      font-weight: normal;
+      padding-top: 10px;
+      float: left;
+    }
+
+    #Find-local-news a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      position: relative;
+      top: 22px;
+      left: 900px;
+      float: left;
+    }
+
+    #Find-local-news a:hover {
+      text-decoration: underline;
+    }
+
+    #pointer {
+      width: 30px;
+      margin: 14px 0px 0px 910px;
+    }
+
+    #menu-bar-2-container {
+      background-color: #A91717;
+      width: 100%;
+    }
+
+    #menu-bar-2 {
+      width: 1500px;
+      margin: 0 auto;
+      height: 40px;
+    }
+
+    #menu-bar-2 a {
+      color: white;
+      text-decoration: none;
+      padding: 0 15px;
+      border-right: 1px solid #cccccc;
+      font-size: 16px;
+      position: relative;
+      top: 12px;
+    }
+
+    #menu-bar-2 a:hover {
+      text-decoration: underline;
+    }
+
+    #page-container {
+      width: 1300px;
+      margin: 0 auto;
+
+    }
+
+    h2 {
+      font-weight: normal;
+      margin-top: 60px;
+      font-size: 22px;
+      border-bottom: #bb1919 2px solid;
+      width: 110px;
+    }
+
+    h3 a {
+      color: black;
+      font-size: 30px;
+      text-decoration: none;
+
+    }
+
+    h3 a:hover {
+      color: blue;
+    }
+
+    #article-summary {
+      color: #5a5a5a;
+      width: 300px;
+      float: left;
+    }
+
+    #article-summary img {
+      width: 27px;
+      position: relative;
+      top: 7px;
+    }
+
+    #article-summary a {
+      text-decoration: none;
+      color: #A91717;
+    }
+
+    #article-summary a:hover {
+      color: blue;
+    }
+
+    #article-container {
+      float: left;
+      width: 750px;
+      border-right: 1px solid #cccccc;
+      
+      height: 700px;
+         
+    }
+
+    #asda-pic {
+
+      width: 400px;
+      margin-left: 10px;
+      border-bottom: 1px solid #cccccc; 
+      
+    }
+
+    #watch-listen {
+      margin-left: 50px;
+      font-weight: normal;
+      font-size: 30px;
+      position: relative;
+      top: 20px;
+
+    }
+
+    #videos-left {
+      
+      height: auto;
+      margin-left: 770px;
+      margin-top: 40px;
+    }
+
+    .all-videos {
+      height: auto;
+      width: auto;
+      margin-right: 200px;
+    }
+
+    .video-text {
+      position: relative;
+      width: 500px;
+      left: 20px;
+      font-size: 20px;
+    }
+
+    .time-below {
+      width: 600px;
+      position: relative;
+      left: 20px;
+      top: -10px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .vid {
+      float: left;
+      width: 190px;
+      height: 100px;
+      margin-bottom: 30px;
+    }
+    #line{
+       float: left;
+      margin-top: 130px;
+      margin-left: 50px;
+      width: 600px;
+      
+    }
+    #bottom-left{
+      float : left;
+      width: 750px;
+      height: 310px;
+      position: relative;
+      top: 20px;
+      margin-bottom: 0;
+    }
+   #first-box{ 
+          float: left    ;
+          width: 49%;
+          height: 310px;
+          
+   }
+    #second-box{
+           height: 310px;     
+   }
+   .bottom-image{
+    margin-right: 10px;
+    padding: 0;
+      width: 350px!important;
+
+   }
+   .textbo{
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 2px;
+    
+   }
+   #secoimage{
+    height: 239px;
+    margin-left: 16px;
+   }
+
+   #secotext{
+    padding-left: 380px;
+   }
+    
+  </style>
+</head>
+
+<body>
+  <div id="topbar">
+
+    <img id="logo" src="bbc.png" alt="No Image">
+    <div id="sign-in" class="top-section">
+      <img id="login-image" src="login.png" alt="error">
+      <span id="signin-text">
+        Sign in
+      </span>
+
+    </div>
+    <div id="notification">
+      <img id="bell" src="bell.png" alt="oh no">
+    </div>
+    <div class="top-section topbar-menu">
+      News
+    </div>
+    <div class="top-section topbar-menu">
+      Sport
+    </div>
+    <div class="top-section topbar-menu">
+      TV
+    </div>
+    <div class="top-section topbar-menu">
+      Radio
+    </div>
+    <div class="top-section topbar-menu">
+      More
+    </div>
+    <div class="top-section">
+      <input id="search-box" type="text" placeholder="Search">
+      <input type="image" id="m-glass" src="m-glass.png" alt="error">
+    </div>
+    <div class="clear"></div>
+    <div id="menu-bar-container">
+      <div id="menu-bar">
+        <h1>
+          NEWS
+        </h1>
+        <span id="Find-local-news">
+          <a href="">Find local news</a>
+          <img id="pointer" src="pointer.jpg" alt="error">
+        </span>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div id="menu-bar-2-container">
+      <div id="menu-bar-2">
+        <a href="">Home</a>
+        <a href="">UK</a>
+        <a href="">World</a>
+        <a href="">Business</a>
+        <a href="">Politics</a>
+        <a href="">Tech</a>
+        <a href="">Science</a>
+        <a href="">Health</a>
+        <a href="">Education</a>
+        <a href="">Entertainment</a>
+        <a href="">Video & Audio</a>
+        <a href="">More</a>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div id="page-container">
+    <div id="main-article">
+      <h2> Technology</h2>
+      <div id="article-container">
+        <h3> <a href="">Asda bug exposed payment details</a></h3>
+        <div id="article-summary">
+          <p> The Security vulnerabilites that put customers at risk have
+            affected Asda's websites for a couple of years, a security expert have revealed.</p>
+          <p> <img src="clock.jpg" alt="error"> 18 January 2022 | <a href="">Technology</a></p>
+             <hr id="line">
+                <div id="bottom-left">
+                   <div id="first-box">
+                     <img class="bottom-image" src="rrr.jpg" alt="">
+                     <p class="textbo">RRR's Naatu Naatu wins historic Golden Globe for best original song</p>
+                   </div>
+                   <div id="second-box">
+                       <img id="secoimage" class="bottom-image" src="goldmummy.jpg" alt=""> 
+                       <p id="secotext" class="textbo">Gold covered mummy found in sealed Egyptian Tomb</p>  
+                   </div>
+                </div>
+        </div>
+        
+        <img id="asda-pic" src="asda.jpg">
+        
+      </div>
+    </div>
+    <span id="watch-listen">
+      Watch/Listen
+    </span>
+    <div id="videos-left">
+      <div class="all-videos">
+        <iframe class="vid" src="https://www.youtube.com/embed/XeRR084KGdE" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <p class="video-text">
+          Climate change fighting technology ‘should be ramped up’, report urges – BBC News
+
+        </p>
+        <p class="time-below">9.1K views . 3 hours ago</p>
+      </div>
+
+      <div class="all-videos">
+        <iframe class="vid" src="https://www.youtube.com/embed/WwJvlKEDmdA" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <p class="video-text"> How an app is helping low vision people navigate life better - BBC News
+        </p>
+        <p class="time-below">9.1K views . 3 hours ago</p>
+      </div>
+
+      <div class="all-videos">
+        <iframe class="vid" src="https://www.youtube.com/embed/yIdDghCBnU4" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <p class="video-text">
+          Europe and polar regions hit worst by global warming in 2022 - BBC News
+        </p>
+        <p class="time-below">9.1K views . 3 hours ago</p>
+      </div>
+
+      <div class="all-videos">
+        <iframe class="vid" src="https://www.youtube.com/embed/SCAwiMIG9o8" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <p class="video-text">
+          'Once in a century' flooding hits Australia - BBC News
+        </p>
+        <p class="time-below">9.1K views . 3 hours ago</p>
+      </div>
+
+      <div class="all-videos">
+        <iframe class="vid" src="https://www.youtube.com/embed/RzN7zyI4wYA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <p class="video-text">
+          Ukraine has ‘frank’ talks with Germany as it pushes for tanks - BBC News
+
+        </p>
+        <p class="time-below">9.1K views . 3 hours ago</p>
+      </div>
+    </div>
+    <div class="clear"></div>
+    
+  </div>
+
+</body>
+
+</html>
